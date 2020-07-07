@@ -1,0 +1,157 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #40514E;
+}
+
+h1 {
+  /*margin: 0 auto 0 auto;*/
+  /* or can be written as margin:0 auto; 0 for top and bottom, auto for right and left */
+  margin: 15px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5em;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Roboto', 'Josefin Slab', serif;
+  font-size: 2em;
+  line-height: 1;
+  color: #66BFBF;
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: 'Roboto', 'Josefin Slab', serif;
+  font-weight: bolder;
+  font-size: 1.25em;
+  color: #11999E;
+}
+
+p {
+  margin: 0px;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 0px;
+  width: 5%;
+}
+
+
+.top-container {
+  background-color: #ddf3f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 30px
+
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.font1 {
+  font-style: oblique;
+  font-size: 30px;
+  font-family: "Apple Chancery";
+}
+
+.font2 {
+  font-style: italic;
+  font-family: "Apple Chancery";
+  text-decoration: underline;
+  font-size: 20px;
+}
+.profile{
+  width: 50%;
+  margin: 100px auto 100px auto;
+
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+}
+.primary_skill_row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+.primary_word_art {
+  width: 20%;
+  float: left;
+  margin-right: 15px;
+  /*height: 300px;*/
+}
+.rest_skill_row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+.rest_word_art {
+  width: 20%;
+  float: right;
+  margin-left: 15px;
+  /*height: 300px;*/
+}
+
+.copyright{
+  font-size: 0.75rem;
+  color: #EAF6F6;
+  padding: 20px 0;
+  font-weight: bolder;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 10px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+
+}
+.BUTTON_LIR {
+   background: #66BFBF;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 20px;
+   font-weight: 200;
+   padding: 10px;
+   border: solid #66BFBF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 40px;
+
+}
+
+.BUTTON_LIR:hover {
+   border: solid #66BFBF 1px;
+   background: #11999E;
+   text-decoration: none;
+}
