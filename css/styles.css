@@ -133,6 +133,16 @@ hr {
   background-color: #f8f9fa;
 }
 
+.book-cover-img {
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #f8f9fa;
+}
+
 .skills-grid {
   display: flex;
   justify-content: space-around;
